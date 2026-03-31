@@ -199,7 +199,7 @@ runs:
         GH_TOKEN: ${{ inputs.dispatch_token }}
         TARGET_REPO: ${{ github.repository }}
         TARGET_REF: ${{ steps.ver.outputs.tag }}
-        PUBLISHER_REPO: tri-ie/tri-test-publish-pypi
+        PUBLISHER_REPO: tri-ie/tri-publish-pypi
         EVENT_TYPE: publish-to-pypi
         SUBDIR: ${{ inputs.subdir }}
         INITIATED_BY: ${{ inputs.initiated_by }}
